@@ -1,5 +1,11 @@
 .colorful{
     color:wheat;
-    background-color: black;
+    background-color:green;
     font: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sizeup{
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

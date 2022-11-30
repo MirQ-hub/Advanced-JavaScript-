@@ -1,18 +1,20 @@
-//Classlist
-
-//INLINE TYYLEJÄ
 
 
-let li = document.querySelector("li");
+function changeColor(){
+    let elems = document.querySelectorAll("ul:first-child li");
 
-li.style.color="red";
-li.style.backgroundColor="blue";
-
-let elem =  document.querySelector("ul:fist-child li");
-function changeColor{
-    for (const elem of elems)
-     {elem.classList.toggle("colorful");
+    for (const elem of elems) {
+        elem.classList.toggle("colorful");
         
     }
+
 }
 
+function changeSize(){
+    let elems = document.querySelectorAll("li");
+    for (const e of elems) {
+        if(e.textContent.length < 10){
+            e.classList.add("sizeup");
+        }    
+    }
+}
